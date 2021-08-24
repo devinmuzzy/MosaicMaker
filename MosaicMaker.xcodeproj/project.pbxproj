@@ -67,7 +67,7 @@
 				CC1827F4267D1A0600F2C808 /* libopencv_highgui.4.5.2.dylib */,
 				CC1827F8267D1A0600F2C808 /* libopencv_imgcodecs.4.5.2.dylib */,
 				CC182724267D0D9400F2C808 /* libopencv_imgproc.4.5.2.dylib */,
-				CC182700267D0D3C00F2C808 /* OpenCVPractice */,
+				CC182700267D0D3C00F2C808 /* MosaicMaker */,
 				CC1826FF267D0D3C00F2C808 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC182700267D0D3C00F2C808 /* OpenCVPractice */ = {
+		CC182700267D0D3C00F2C808 /* MosaicMaker */ = {
 			isa = PBXGroup;
 			children = (
 				CC0CBC83268E7EDB0008CF06 /* Controller.hpp */,
@@ -92,7 +92,7 @@
 				CC0CBC86268E82AF0008CF06 /* PhotoProcess.hpp */,
 				CC0CBC85268E82AF0008CF06 /* PhotoProcess.cpp */,
 			);
-			path = OpenCVPractice;
+			path = MosaicMaker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
