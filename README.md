@@ -1,7 +1,7 @@
 # MosaicMaker
 
 ## Overview
-MosaicMaker is a command-line application that allows for the rapid creation of photo mosaics. A photo mosaic is an image that is made up of a combination of other images. In this application, the user gets to choose their own "library" of images - the images that will make up the final result. 
+MosaicMaker is a command-line application that allows for the rapid creation of photo mosaics. A photo mosaic is an image that is made up of a combination of other images. In this application a user points the program to a folder of images that they want their image to be made out of.
 
 ## Usage
 Compile the source code into an executable file, then follow the prompts given on-screen. 
