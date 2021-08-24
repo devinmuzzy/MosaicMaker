@@ -69,6 +69,7 @@
 				CC182724267D0D9400F2C808 /* libopencv_imgproc.4.5.2.dylib */,
 				CC182700267D0D3C00F2C808 /* MosaicMaker */,
 				CC1826FF267D0D3C00F2C808 /* Products */,
+				CCB5739D26D586FC005D6D7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +94,13 @@
 				CC0CBC85268E82AF0008CF06 /* PhotoProcess.cpp */,
 			);
 			path = MosaicMaker;
+			sourceTree = "<group>";
+		};
+		CCB5739D26D586FC005D6D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,15 +287,17 @@
 				CODE_SIGN_ENTITLEMENTS = OpenCVPractice/OpenCVPractice.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QGXLT479LY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/4.5.2_4/include/opencv4/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/opencv/4.5.2_4/lib,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -297,15 +307,17 @@
 				CODE_SIGN_ENTITLEMENTS = OpenCVPractice/OpenCVPractice.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QGXLT479LY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/4.5.2_4/include/opencv4/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/opencv/4.5.2_4/lib,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
